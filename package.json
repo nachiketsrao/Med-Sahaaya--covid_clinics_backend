@@ -1,0 +1,26 @@
+{
+  "name": "clinics_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app_clinics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nachiket",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.10.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "cryptr": "^4.0.2",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.4",
+    "nodemon": "^1.19.4",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.4.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.81.0"
+  }
+}
