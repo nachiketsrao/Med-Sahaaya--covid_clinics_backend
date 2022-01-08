@@ -33,7 +33,7 @@ mongoose.connect('mongodb+srv://nacho1:salsanacho1@realmcluster.jwh3u.mongodb.ne
 
 // get documents by district:
 app.use('/',
-router.post('/', (req, res) => {
+router.get('/', (req, res) => {
 
     //console.log(req.body);
 
