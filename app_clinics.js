@@ -88,7 +88,7 @@ User.find({ name: 'Punit'}, function (err, docs) {
 In this code, we are finding all the documents where the name is Punit.
 */
 
-app.get('/ping', function (req, resp) {
+app.get('/ping2', function (req, resp) {
     resp.status(200).send('pong').end()
 });
 
