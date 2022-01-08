@@ -9,7 +9,7 @@ const clinicsModel = require('./clinics.model');
 
 var router = express.Router();
 var app = express();
-var port = 3002;
+var port = 3000;
 
 //var router = express.Router;
 
