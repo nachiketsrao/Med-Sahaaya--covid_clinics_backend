@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use(bodyparser.json({limit: '50mb'}));
 app.use(bodyparser.urlencoded({limit: '50mb'}));
 
-mongoose.connect('mongodb+srv://nacho1:salsanacho1@realmcluster.jwh3u.mongodb.net/mytest?retryWrites=true&w=majority', function (err) {
+mongoose.connect('<put the mongodb url here>', function (err) { //insert mongodb url before usage
     if (err) {
         console.error(err)
         process.exit(1)
